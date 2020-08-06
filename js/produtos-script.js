@@ -47,19 +47,19 @@ textArea.value = textoDaMensagem;
 
 
 // Animação AOS
-var fotoGiz = document.querySelector(fotoDeFundo);
-var tituloGiz = document.querySelector(titulo);
+var fotoDeFundoPrincipal = document.querySelector(fotoDeFundo);
+var tituloPrincipal = document.querySelector(titulo);
 var imagemUm = document.querySelector(fotoUm);
 var imagemDois = document.querySelector(fotoDois);
 var imagemTres = document.querySelector(fotoTres);
 var textoUm = document.querySelector(texto);
 var tituloFormulario = document.querySelector(tituloDoFormulario);
 
-fotoGiz.setAttribute('data-aos', 'fade-left');
+fotoDeFundoPrincipal.setAttribute('data-aos', 'fade-left');
 
-tituloGiz.setAttribute('data-aos', 'fade-right');
-tituloGiz.setAttribute('data-aos-delay','500');
-tituloGiz.setAttribute('data-aos-easing','ease-in-out');
+tituloPrincipal.setAttribute('data-aos', 'fade-right');
+tituloPrincipal.setAttribute('data-aos-delay','500');
+tituloPrincipal.setAttribute('data-aos-easing','ease-in-out');
 
 imagemUm.setAttribute('data-aos', 'zoom-out-down');
 imagemDois.setAttribute('data-aos', 'zoom-out-down');
