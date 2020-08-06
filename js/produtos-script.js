@@ -1,10 +1,36 @@
+/*
+    <!-- Botao fixado -->
+    <div id="botaoFixado" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <a href="#358dda31-bd1f-4bd8-8755-75e38c54f61d"><button class="solOrc">Solicitar orçamento</button></a>
+    </div>
+
+~ CONFIGURAÇÃO ~ Adicionando IDs nas variáveis (ex: "[id='xxxx']")
+
+    //Primeira divisão
+    var fotoDeFundo = "";
+    var titulo = "";
+
+    //Segunda divisão
+    var fotoUm = "";
+    var fotoDois = "";
+    var fotoTres = "";
+    var texto = "";
+
+    //Quarta divisão
+    var tituloDoFormulario = "";
+    var formularioBotao = ""; // Fundo da faixa "Solicitar Orçamento" - sem o "[id='']"
+    var caixasDoFormulario = ""; // Sem o "[id='']"
+    var textoDaMensagem = "";
+    
+ */ 
+
 // mostrar/esconder formulário
-var botaoFormularioUm = document.getElementById('358dda31-bd1f-4bd8-8755-75e38c54f61d');
+var botaoFormularioUm = document.getElementById(formularioBotao);
 var botaoFormularioDois = document.getElementById('botaoFixado');
 
         function exibeFormulario() {
             this.__toggle = !this.__toggle;
-            var target = document.getElementById('0514a1cb-a222-4696-9d25-4a56b464f96b');
+            var target = document.getElementById(caixasDoFormulario);
             if( this.__toggle) {
                 target.style.height = target.scrollHeight+"px";
             }
@@ -17,17 +43,17 @@ botaoFormularioDois.onclick = exibeFormulario;
 
 // Add texto no textarea do formulário
 var textArea = document.querySelector("textarea");
-textArea.value = "Olá! Estou interessado(a) na Linha Giz do Coisas do brasil. Por favor envie-me um email ou mensagem por telefone para podermos conversar sobre um orçamento.";
+textArea.value = textoDaMensagem;
 
 
 // Animação AOS
-var fotoGiz = document.querySelector("[id='1f14d81a-ed4b-4d09-9b83-6d5365550657']");
-var tituloGiz = document.querySelector('#fe59d4ff-6634-48da-aadb-3aa2723ab934');
-var imagemUm = document.querySelector("[id='6d0d9726-ec1f-4fb0-834e-8bd236683e30']");
-var imagemDois = document.querySelector("[id='970f5f78-713c-40e8-a492-91bfb75c19b7']");
-var imagemTres = document.querySelector("[id='767ab0b5-3014-4306-8286-e66e5643798e']");
-var textoUm = document.querySelector("[id='958c0c4a-6dc7-4768-b184-2876c1b1e45c']");
-var tituloFormulario = document.querySelector("[id='856ad137-2e2c-4315-b071-e46831156e5a']");
+var fotoGiz = document.querySelector(fotoDeFundo);
+var tituloGiz = document.querySelector(titulo);
+var imagemUm = document.querySelector(fotoUm);
+var imagemDois = document.querySelector(fotoDois);
+var imagemTres = document.querySelector(fotoTres);
+var textoUm = document.querySelector(texto);
+var tituloFormulario = document.querySelector(tituloDoFormulario);
 
 fotoGiz.setAttribute('data-aos', 'fade-left');
 
@@ -44,4 +70,3 @@ textoUm.setAttribute('data-aos', 'fade-up');
 textoUm.setAttribute('data-aos-delay','300');
 
 tituloFormulario.setAttribute('data-aos', 'zoom-in');
-
