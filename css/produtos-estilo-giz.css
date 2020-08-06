@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Carregado do Sass */
 /* Correção - tela que rola horizontalmente */
 body {
   overflow-x: hidden; }
