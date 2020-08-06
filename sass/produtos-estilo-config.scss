@@ -1,0 +1,34 @@
+// Comando:
+// sass --watch sass/produtos-estilo-config.scss:css/produtos-estilo-giz.css
+
+// ~ CONFIGURAÇÃO ~ Área do Sass
+
+// Segunda divisão
+$segundaDivisao: "#e82cc380-4cf5-4d60-ae61-2b865e80bba6";
+
+// Quarta divisão
+$quartaDivisao-solicitarOrcamento: ".cs-section[id='358dda31-bd1f-4bd8-8755-75e38c54f61d'] .cs-section-inner";
+// Formulário (div das caixas)
+$formularioCaixas: "[id='0514a1cb-a222-4696-9d25-4a56b464f96b']";
+
+
+// ~ RESPONSIVO ~
+// Espaço (antes do título)
+$espacadorPrimeiraDivisao: ".cs-widget[id='4b3a6760-1ed8-42a8-b74b-caad89153138']";
+
+// ID da section do Background (primeira divisão)
+$idSectionPrimeiraDivisao: ".cs-section[id='1f14d81a-ed4b-4d09-9b83-6d5365550657']";
+
+// Espaço de cima (segunda divisão)
+$espacoCimaSegDiv: ".cs-widget[id='47177366-5964-4c8b-a86c-0a495bc0b510']";
+
+// Texto (segunda divisão)
+$textoSegDiv: ".cs-widget[id='73287537-8cc1-4fbf-868e-6743b5a99fe7'] .text-editor";
+
+// Espaço de baixo (segunda divisão)
+$espacadorSegundaDivisao: ".cs-widget[id='6f9fa469-de0a-4888-8d3e-75b2781680ea']";
+
+// div do "Solicitar Orçamento" (h2) (quarta divisão)
+$SolicitarOrcamentoTitulo: ".cs-text-widget[id='856ad137-2e2c-4315-b071-e46831156e5a']";
+
+@import "produtos-estilo";
