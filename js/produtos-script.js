@@ -4,7 +4,7 @@
         <a href="#358dda31-bd1f-4bd8-8755-75e38c54f61d"><button class="solOrc">Solicitar orçamento</button></a>
     </div>
 
-~ CONFIGURAÇÃO ~ Adicionando IDs nas variáveis (ex: "[id='xxxx']")
+~ CONFIGURAÇÃO ~ Adicionando IDs nas variáveis (ex: "#xxx" ou "[id='xxxx'] quando começa com número")
 
     //Primeira divisão
     var fotoDeFundo = "";
