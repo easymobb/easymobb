@@ -1,0 +1,6 @@
+/* Correção do espaçamento entre linhas no site responsivo */
+@media screen and (orientation:portrait) {
+    #be8f8601-90cc-47ca-b66a-be1c3fd338d1 .text-editor h2{
+      line-height: 0.4em;
+    }
+}
