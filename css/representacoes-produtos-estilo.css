@@ -7,7 +7,16 @@
 .logo-coisasDoBrasil:hover {
     content: url(https://yata-apix-da315870-4eb4-4e9a-a8c6-4e3203b13e3b.lss.locawebcorp.com.br/14c1b613fdae4359b3939dfb6c5f4a8b.png);
 }
-    
+
+/* Seta no carousel */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
 /* Responsivo */
 @media(max-width: 768px){
     .cs-widget[id="7d1eaf73-19ca-44b0-a5d3-feddacebe65a"] .text-editor h3{
