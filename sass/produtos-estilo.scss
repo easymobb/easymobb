@@ -7,6 +7,19 @@ body{
 #{$segundaDivisao} img{
   border-radius: 3px;
 }
+
+/* Seta no carousel */
+.carousel-control-next-icon:after{
+  content: '>';
+  font-size: 2em;
+  color: #568c87;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 2em;
+  color: #568c87;
+}
    
 /* "Solicitar Orçamento" - Seta de click e background hover */
 #{$quartaDivisao-solicitarOrcamento}:hover {
