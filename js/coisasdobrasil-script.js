@@ -1,3 +1,8 @@
 // Animação AOS
-var gizTexto = document.querySelector("[id='e78a7e30-d48f-4d81-84c0-715a2173b311']");
-gizTexto.setAttribute('data-aos', 'fade-right');
+var agaveTexto = document.querySelector("[id='e78a7e30-d48f-4d81-84c0-715a2173b311']");
+var baobaTexto = document.querySelector("[id='07783d72-416a-4974-8335-e3e6aa8979aa']");
+
+agaveTexto.setAttribute('data-aos', 'fade-right');
+
+baobaTexto.setAttribute('data-aos', 'fade-left');
+baobaTexto.setAttribute('data-aos-delay', '400');
