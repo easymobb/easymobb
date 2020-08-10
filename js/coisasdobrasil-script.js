@@ -4,6 +4,8 @@ var baobaTexto = document.querySelector("[id='07783d72-416a-4974-8335-e3e6aa8979
 var baobaTexto = document.querySelector("[id='07783d72-416a-4974-8335-e3e6aa8979aa']");
 var cubosTexto = document.querySelector("[id='3fa93acd-98a2-40ef-9ce4-88d27246fb0e']");
 var gizTexto = document.querySelector("[id='fbee695e-2b61-4da5-9983-18212becf447']");
+var hexagonoTexto = document.querySelector("[id='cfcd8285-e37e-46be-9e42-d37ded4d9fa8']");
+var jauaTexto = document.querySelector("[id='d570c2aa-5287-4cb5-8e6f-45b584b25d85']");
 
 
 agaveTexto.setAttribute('data-aos', 'fade-right');
@@ -14,3 +16,7 @@ baobaTexto.setAttribute('data-aos-delay', '400');
 cubosTexto.setAttribute('data-aos', 'fade-right');
 
 gizTexto.setAttribute('data-aos', 'fade-left');
+
+hexagonoTexto.setAttribute('data-aos', 'fade-right');
+
+jauaTexto.setAttribute('data-aos', 'fade-left');
