@@ -1,15 +1,40 @@
 /* Responsivo */
 @media(max-width: 768px){
-    .cs-widget[id="a2fae744-081d-4669-822f-853b753c40b7"] .text-editor h2{
-      font-size: 48px;
-    }
-    .cs-section[id="20a809ac-b321-41bb-a7f4-02a4dc89b29e"] .cs-section-inner{
-      display: flex;
-    }
-    .cs-box[id="e78a7e30-d48f-4d81-84c0-715a2173b311"]{
-      order: -1;
-    }
-    .cs-box[id="3fa93acd-98a2-40ef-9ce4-88d27246fb0e"]{
-      order: -1;
-    }
+  .cs-widget[id="a2fae744-081d-4669-822f-853b753c40b7"] .text-editor h2{
+    font-size: 48px;
+  }
+
+  .cs-section[id="20a809ac-b321-41bb-a7f4-02a4dc89b29e"] .cs-section-inner{
+    display: flex;
+  }
+
+  /* Agave */
+  .cs-box[id="e78a7e30-d48f-4d81-84c0-715a2173b311"]{
+    order: -1;
+  }
+
+  /* Cubos */
+  .cs-box[id="3fa93acd-98a2-40ef-9ce4-88d27246fb0e"]{
+    order: -1;
+  }
+
+  /* Hexágono */
+  .cs-box[id="cfcd8285-e37e-46be-9e42-d37ded4d9fa8"]{
+    order: -1;
+  }
+
+  /* Line */
+  .cs-box[id="24dacdd1-ced8-4be3-ab0e-d630c9526840"]{
+    order: -1;
+  }
+
+  /* Uno Duo Tre */
+  .cs-box[id="c73b7b4b-0852-4538-b331-3565a6587a6d"]{
+    order: -1;
+  }
+
+  /* Booths */
+  .cs-box[id="30be4058-13d7-4b19-be9d-38adcc82c36a"]{
+    order: -1;
+  }
 }
