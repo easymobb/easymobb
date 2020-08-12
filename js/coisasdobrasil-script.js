@@ -1,4 +1,6 @@
 // Animação AOS
+var coisasDoBrasil = document.querySelector("[id='a2fae744-081d-4669-822f-853b753c40b7']");
+
 var agaveTexto = document.querySelector("[id='e78a7e30-d48f-4d81-84c0-715a2173b311']");
 var baobaTexto = document.querySelector("[id='07783d72-416a-4974-8335-e3e6aa8979aa']");
 var cubosTexto = document.querySelector("[id='3fa93acd-98a2-40ef-9ce4-88d27246fb0e']");
@@ -15,6 +17,8 @@ var boothsTexto = document.querySelector("[id='30be4058-13d7-4b19-be9d-38adcc82c
 var painelDecorativoTexto = document.querySelector("[id='7aea6520-6a5c-4ff4-8d62-e2b97252e19c']");
 var futonsTexto = document.querySelector("[id='388ac013-7fed-43fc-9d46-32a96a3d185d']");
 var BancosEAcessoriosTexto = document.querySelector("[id='72335cc0-5846-4d03-83d0-315e6179d32f']");
+
+coisasDoBrasil.setAttribute('data-aos', 'zoom-in');
 
 agaveTexto.setAttribute('data-aos', 'fade-right');
 baobaTexto.setAttribute('data-aos', 'fade-left');
