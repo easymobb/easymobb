@@ -33,8 +33,18 @@
     order: -1;
   }
 
+  /* Caeté */
+  .cs-box[id="fdb9f185-a1c4-4752-9146-4d0f63dc26af"]{
+    order: -1;
+  }
+
   /* Booths */
   .cs-box[id="30be4058-13d7-4b19-be9d-38adcc82c36a"]{
+    order: -1;
+  }
+
+  /* Futons */
+  .cs-box[id="388ac013-7fed-43fc-9d46-32a96a3d185d"]{
     order: -1;
   }
 }
