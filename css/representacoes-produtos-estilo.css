@@ -17,6 +17,13 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
+.carousel-caption, .carousel-caption h4{
+    color: #568c87;
+}
+
+.carousel-caption h4{
+    font-weight: bold;
+}
 /* Responsivo */
 @media(max-width: 768px){
     .cs-widget[id="7d1eaf73-19ca-44b0-a5d3-feddacebe65a"] .text-editor h3{
@@ -26,4 +33,8 @@
         width: 150%!important;
      left: -25%;
     } 
+    .carousel-caption h4{
+        font-weight: normal;
+        font-size: 1.3rem;
+    }
 }
