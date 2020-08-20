@@ -50,12 +50,12 @@ body {
     display: none; }
 
   /* aumenta background - 1ª divisao */
-  .cs-section[id='35e14687-764c-47f1-bcfa-c3afb4f4024f'] .cs-section-inner {
+  .cs-section[id='f6685d4f-93a9-4427-b0c7-9f7a21fc6d96'] .cs-section-inner {
     min-height: 500px;
     background-size: 160% auto; }
 
   /* Diminui 1ª divisão */
-  .cs-section[id='35e14687-764c-47f1-bcfa-c3afb4f4024f'] {
+  .cs-section[id='f6685d4f-93a9-4427-b0c7-9f7a21fc6d96'] {
     min-height: 500px; }
 
   /* Exclui espaço do início - divisão 2 */
