@@ -1,0 +1,38 @@
+// Comando para editar:
+// Deve fazer uma cópia deste arquivo para "produtos-estilo-*nomeDaLinha*-config.scss"
+// sass --watch sass/produtos-estilo-agave-config.scss:css/produtos-estilo-agave.css
+
+// ~ CONFIGURAÇÃO ~ Área do Sass
+
+// Segunda divisão
+$segundaDivisao: "#7db647d5-61e0-48b2-ac74-257ed264cf4f";
+
+// Quarta divisão
+$quartaDivisao-solicitarOrcamento: ".cs-section[id='ae82fbb9-fc18-412c-8c6a-752ae317c318']";
+
+// Formulário (div das caixas)
+$formularioCaixas: "[id='f3cacd99-37f7-420f-bb54-78277a6cb9c0']";
+
+
+// ~ RESPONSIVO ~
+// Espaço (antes do título)
+$espacadorPrimeiraDivisao: ".cs-widget[id='0d910879-b660-4fbb-a74a-f2d8b22cea8b']";
+
+// ID da section do Background (primeira divisão)
+$idSectionPrimeiraDivisao: ".cs-section[id='35e14687-764c-47f1-bcfa-c3afb4f4024f']";
+
+// Espaço de cima (segunda divisão)
+$espacoCimaSegDiv: ".cs-widget[id='958c5382-4fce-4d08-8ff7-2eb85c189e07']";
+
+// Texto (segunda divisão)
+$textoSegDiv: ".cs-widget[id='ea5f28ca-a88f-493a-b2da-25395ec20f6d'] .text-editor";
+
+// Espaço de baixo (segunda divisão)
+$espacadorSegundaDivisao: ".cs-widget[id='8c6a149b-8782-4580-b1d0-8e632c284d36']";
+
+// div do "Solicitar Orçamento" (h2) (quarta divisão)
+$SolicitarOrcamentoTitulo: ".cs-text-widget[id='be8023f0-afaa-4238-b2e1-a55e565865e6']";
+
+
+/* Carregado do Sass */
+@import "produtos-estilo";

@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* Carregado do Sass */
+/* Correção - tela que rola horizontalmente */
+body {
+  overflow-x: hidden; }
+
+/* borda - Fotos 2ª divisão */
+#7db647d5-61e0-48b2-ac74-257ed264cf4f img {
+  border-radius: 3px; }
+
+/* Seta no carousel */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
+
+/* "Solicitar Orçamento" - Seta de click e background hover */
+.cs-section[id='ae82fbb9-fc18-412c-8c6a-752ae317c318']:hover {
+  cursor: pointer;
+  background-color: #262626; }
+
+/* Formulário escondido por padrão */
+[id='f3cacd99-37f7-420f-bb54-78277a6cb9c0'] {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s ease; }
+
+/* Botão "Solicitar Orçamento" */
+.solOrc {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: grey; }
+
+.solOrc:hover {
+  cursor: pointer;
+  background-color: #262626; }
+
+#botaoFixado {
+  position: fixed;
+  bottom: 0;
+  right: 30px; }
+
+/* Site Responsivo */
+@media (max-width: 768px) {
+  /* exclui o espaço entre o título */
+  .cs-widget[id='0d910879-b660-4fbb-a74a-f2d8b22cea8b'] .espacador {
+    display: none; }
+
+  /* aumenta background - 1ª divisao */
+  .cs-section[id='35e14687-764c-47f1-bcfa-c3afb4f4024f'] .cs-section-inner {
+    min-height: 500px;
+    background-size: 160% auto; }
+
+  /* Diminui 1ª divisão */
+  .cs-section[id='35e14687-764c-47f1-bcfa-c3afb4f4024f'] {
+    min-height: 500px; }
+
+  /* Exclui espaço do início - divisão 2 */
+  .cs-widget[id='958c5382-4fce-4d08-8ff7-2eb85c189e07'] {
+    display: none; }
+
+  /* Diminui tamanho da fonte - divisão 2 */
+  .cs-widget[id='ea5f28ca-a88f-493a-b2da-25395ec20f6d'] .text-editor p span em {
+    font-size: 92%; }
+
+  /* Exclui espaço do fim - divisão 2 */
+  .cs-widget[id='8c6a149b-8782-4580-b1d0-8e632c284d36'] {
+    display: none; }
+
+  /* aumenta tamanho do carousel */
+  .w-100 {
+    width: 150% !important; }
+
+  /* Corrige posição das imagens - carousel */
+  .carousel-item {
+    left: -25%; }
+
+  /* Diminui fonte do "Solicitar Orçamento" */
+  .cs-text-widget[id='be8023f0-afaa-4238-b2e1-a55e565865e6'] .text-editor h2 {
+    font-size: 38px; } }
+
+/*# sourceMappingURL=produtos-estilo-agave.css.map */
