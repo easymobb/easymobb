@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* Carregado do Sass */
+/* Correção - tela que rola horizontalmente */
+body {
+  overflow-x: hidden;
+}
+
+/* borda - Fotos 2ª divisão */
+#fcb986b4-f4f9-49a2-8a3c-4bfe9673fda3 img {
+  border-radius: 3px;
+}
+
+/* Seta no carousel */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* "Solicitar Orçamento" - Seta de click e background hover */
+.cs-section[id=fd99d01e-7581-4e45-9b8a-eb69d5151409]:hover {
+  cursor: pointer;
+  background-color: #262626;
+}
+
+/* Formulário escondido por padrão */
+[id=f809f788-f31f-4bf7-b31f-b9c18fd4d015] {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s ease;
+}
+
+/* Botão "Solicitar Orçamento" */
+.solOrc {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: grey;
+}
+
+.solOrc:hover {
+  cursor: pointer;
+  background-color: #262626;
+}
+
+#botaoFixado {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+}
+
+/* Site Responsivo */
+@media (max-width: 768px) {
+  /* exclui o espaço entre o título */
+  .cs-widget[id=e9d9fd7a-2f61-413a-9522-b4dd3ba530d9] .espacador {
+    display: none;
+  }
+
+  /* aumenta background - 1ª divisao */
+  .cs-section[id=ae27de85-28f4-4a5d-aa8f-c9a8274c9399] .cs-section-inner {
+    min-height: 500px;
+    background-size: 160% auto;
+  }
+
+  /* Diminui 1ª divisão */
+  .cs-section[id=ae27de85-28f4-4a5d-aa8f-c9a8274c9399] {
+    min-height: 500px;
+  }
+
+  /* Exclui espaço do início - divisão 2 */
+  .cs-widget[id="0e789e30-4034-43a0-8b15-6d8f0e7b702d"] {
+    display: none;
+  }
+
+  /* Diminui tamanho da fonte - divisão 2 */
+  .cs-widget[id=eefae6eb-f56f-4576-abb6-4aadbfc6f037] .text-editor p span em {
+    font-size: 92%;
+  }
+
+  /* Exclui espaço do fim - divisão 2 */
+  .cs-widget[id="8c26d270-c470-4de0-812a-6eae13373dc7"] {
+    display: none;
+  }
+
+  /* aumenta tamanho do carousel */
+  .w-100 {
+    width: 150% !important;
+  }
+
+  /* Corrige posição das imagens - carousel */
+  .carousel-item {
+    left: -25%;
+  }
+
+  /* Diminui fonte do "Solicitar Orçamento" */
+  .cs-text-widget[id=a4a1c78d-8d76-415c-9d86-aff068202eb6] .text-editor h2 {
+    font-size: 38px;
+  }
+}

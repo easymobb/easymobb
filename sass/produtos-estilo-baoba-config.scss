@@ -1,0 +1,45 @@
+// Comando para editar:
+// Deve fazer uma cópia deste arquivo para "produtos-estilo-baoba-config.scss"
+// sass --watch sass/produtos-estilo-baoba-config.scss:css/produtos-estilo-baoba.css
+
+// ~ CONFIGURAÇÃO ~ Área do Sass
+
+// Segunda divisão
+$segundaDivisao: "#fcb986b4-f4f9-49a2-8a3c-4bfe9673fda3";
+
+// Quarta divisão
+$quartaDivisao-solicitarOrcamento: ".cs-section[id='fd99d01e-7581-4e45-9b8a-eb69d5151409']";
+
+// Formulário (div das caixas)
+$formularioCaixas: "[id='f809f788-f31f-4bf7-b31f-b9c18fd4d015']";
+
+
+// ~ RESPONSIVO ~
+// Espaço (antes do título)
+$espacadorPrimeiraDivisao: ".cs-widget[id='e9d9fd7a-2f61-413a-9522-b4dd3ba530d9']";
+
+// ID da section do Background (primeira divisão) - (Fechar o valor do mxin para cancelar o zoom da imagem principal responsíva)
+$idSectionPrimeiraDivisao: ".cs-section[id='ae27de85-28f4-4a5d-aa8f-c9a8274c9399']";
+
+@mixin zoomBackgroundResp{
+
+    min-height: 500px;
+    background-size: 160% auto;
+
+}
+
+// Espaço de cima (segunda divisão)
+$espacoCimaSegDiv: ".cs-widget[id='0e789e30-4034-43a0-8b15-6d8f0e7b702d']";
+
+// Texto (segunda divisão)
+$textoSegDiv: ".cs-widget[id='eefae6eb-f56f-4576-abb6-4aadbfc6f037'] .text-editor";
+
+// Espaço de baixo (segunda divisão)
+$espacadorSegundaDivisao: ".cs-widget[id='8c26d270-c470-4de0-812a-6eae13373dc7']";
+
+// div do "Solicitar Orçamento" (h2) (quarta divisão)
+$SolicitarOrcamentoTitulo: ".cs-text-widget[id='a4a1c78d-8d76-415c-9d86-aff068202eb6']";
+
+
+/* Carregado do Sass */
+@import "produtos-estilo";

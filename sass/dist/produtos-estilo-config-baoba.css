@@ -1,0 +1,102 @@
+@charset "UTF-8";
+/* Carregado do Sass */
+/* Correção - tela que rola horizontalmente */
+body {
+  overflow-x: hidden;
+}
+
+/* borda - Fotos 2ª divisão */
+#aaa img {
+  border-radius: 3px;
+}
+
+/* Seta no carousel */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* "Solicitar Orçamento" - Seta de click e background hover */
+.cs-section[id=aaa] .cs-section-inner:hover {
+  cursor: pointer;
+  background-color: #262626;
+}
+
+/* Formulário escondido por padrão */
+[id=aaa] {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s ease;
+}
+
+/* Botão "Solicitar Orçamento" */
+.solOrc {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: grey;
+}
+
+.solOrc:hover {
+  cursor: pointer;
+  background-color: #262626;
+}
+
+#botaoFixado {
+  position: fixed;
+  bottom: 0;
+  right: 30px;
+}
+
+/* Site Responsivo */
+@media (max-width: 768px) {
+  /* exclui o espaço entre o título */
+  .cs-widget[id=aaa] .espacador {
+    display: none;
+  }
+
+  /* aumenta background - 1ª divisao */
+  .cs-section[id=aaa] .cs-section-inner {
+    min-height: 500px;
+    background-size: 160% auto;
+  }
+
+  /* Diminui 1ª divisão */
+  .cs-section[id=aaa] {
+    min-height: 500px;
+  }
+
+  /* Exclui espaço do início - divisão 2 */
+  .cs-widget[id=aaa] {
+    display: none;
+  }
+
+  /* Diminui tamanho da fonte - divisão 2 */
+  .cs-widget[id=aaa] .text-editor p span em {
+    font-size: 92%;
+  }
+
+  /* Exclui espaço do fim - divisão 2 */
+  .cs-widget[id=aaa] {
+    display: none;
+  }
+
+  /* aumenta tamanho do carousel */
+  .w-100 {
+    width: 150% !important;
+  }
+
+  /* Corrige posição das imagens - carousel */
+  .carousel-item {
+    left: -25%;
+  }
+
+  /* Diminui fonte do "Solicitar Orçamento" */
+  .cs-text-widget[id=aaa] .text-editor h2 {
+    font-size: 38px;
+  }
+}
