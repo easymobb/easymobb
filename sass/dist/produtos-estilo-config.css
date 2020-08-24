@@ -1,10 +1,12 @@
+@charset "UTF-8";
+/* Carregado do Sass */
 /* Correção - tela que rola horizontalmente */
-body{
+body {
   overflow-x: hidden;
 }
-   
+
 /* borda - Fotos 2ª divisão */
-#{$segundaDivisao} img{
+#adfgasdgadg img {
   border-radius: 3px;
 }
 
@@ -16,20 +18,20 @@ body{
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
-   
+
 /* "Solicitar Orçamento" - Seta de click e background hover */
-#{$quartaDivisao-solicitarOrcamento}:hover {
+.cs-section[id=adfgadfgadfg] .cs-section-inner:hover {
   cursor: pointer;
   background-color: #262626;
 }
-   
+
 /* Formulário escondido por padrão */
-#{$formularioCaixas}{
+[id=afdgadfg] {
   height: 0;
   overflow: hidden;
   transition: height 1s ease;
 }
-   
+
 /* Botão "Solicitar Orçamento" */
 .solOrc {
   background-color: black;
@@ -49,52 +51,52 @@ body{
   bottom: 0;
   right: 30px;
 }
-   
+
 /* Site Responsivo */
-@media(max-width: 768px){
-   
+@media (max-width: 768px) {
   /* exclui o espaço entre o título */
-    #{$espacadorPrimeiraDivisao} .espacador{
-      display: none;
-    }
-  
+  .cs-widget[id=aghadfgad] .espacador {
+    display: none;
+  }
+
   /* aumenta background - 1ª divisao */
-    #{$idSectionPrimeiraDivisao} .cs-section-inner{
-      @include zoomBackgroundResp;
-    }
-  
+  .cs-section[id=adfgadfgadfg] .cs-section-inner {
+    min-height: 500px;
+    background-size: 160% auto;
+  }
+
   /* Diminui 1ª divisão */
-    #{$idSectionPrimeiraDivisao}{
-      min-height: 500px;
-    }
-  
+  .cs-section[id=adfgadfgadfg] {
+    min-height: 500px;
+  }
+
   /* Exclui espaço do início - divisão 2 */
-    #{$espacoCimaSegDiv}{
-      display: none;
-    }
-  
+  .cs-widget[id=sghdgahadgh] {
+    display: none;
+  }
+
   /* Diminui tamanho da fonte - divisão 2 */
-    #{$textoSegDiv} p span em{
-      font-size: 92%;
-    }
-  
+  .cs-widget[id=sghsghsgh] .text-editor p span em {
+    font-size: 92%;
+  }
+
   /* Exclui espaço do fim - divisão 2 */
-    #{$espacadorSegundaDivisao}{
-      display: none;
-    }
-  
+  .cs-widget[id=sghsgh] {
+    display: none;
+  }
+
   /* aumenta tamanho do carousel */
-    .w-100{
-      width: 150%!important;
-    }
-  
+  .w-100 {
+    width: 150% !important;
+  }
+
   /* Corrige posição das imagens - carousel */
-    .carousel-item{
-      left: -25%;
-    }
-  
+  .carousel-item {
+    left: -25%;
+  }
+
   /* Diminui fonte do "Solicitar Orçamento" */
-    #{$SolicitarOrcamentoTitulo} .text-editor h2{
-      font-size: 38px;
-    }
+  .cs-text-widget[id=sghsghshs] .text-editor h2 {
+    font-size: 38px;
+  }
 }
