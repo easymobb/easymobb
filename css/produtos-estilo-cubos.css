@@ -51,8 +51,10 @@ body {
 
   /* aumenta background - 1ª divisao */
   .cs-section[id='e038a19c-0311-4447-b572-58a19039544f'] .cs-section-inner {
+    /*
     min-height: 500px;
-    background-size: 160% auto; }
+    background-size: 160% auto;
+    */ }
 
   /* Diminui 1ª divisão */
   .cs-section[id='e038a19c-0311-4447-b572-58a19039544f'] {
