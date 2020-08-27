@@ -1,0 +1,85 @@
+@charset "UTF-8";
+/* Carregado do Sass */
+/* Correção - tela que rola horizontalmente */
+body {
+  overflow-x: hidden; }
+
+/* borda - Fotos 2ª divisão */
+#da4bcc7f-0324-4882-951c-bf84580bba25 img {
+  border-radius: 3px; }
+
+/* Seta no carousel */
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E"); }
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23568c87' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
+
+/* "Solicitar Orçamento" - Seta de click e background hover */
+.cs-section[id='a9e9c0b0-38ed-4f00-9e46-28ad666d5cd9'] .cs-section-inner:hover {
+  cursor: pointer;
+  background-color: #262626; }
+
+/* Formulário escondido por padrão */
+[id='a844c078-77f9-4107-9984-c8e25f4e6db9'] {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s ease; }
+
+/* Botão "Solicitar Orçamento" */
+.solOrc {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border-color: grey; }
+
+.solOrc:hover {
+  cursor: pointer;
+  background-color: #262626; }
+
+#botaoFixado {
+  position: fixed;
+  bottom: 0;
+  right: 30px; }
+
+/* Site Responsivo */
+@media (max-width: 768px) {
+  /* exclui o espaço entre o título */
+  .cs-widget[id='8b1e520c-2aae-45e2-9d91-e4e4e529557f'] .espacador {
+    display: none; }
+
+  /* aumenta background - 1ª divisao */
+  .cs-section[id='e038a19c-0311-4447-b572-58a19039544f'] .cs-section-inner {
+    min-height: 500px;
+    background-size: 160% auto; }
+
+  /* Diminui 1ª divisão */
+  .cs-section[id='e038a19c-0311-4447-b572-58a19039544f'] {
+    min-height: 500px; }
+
+  /* Exclui espaço do início - divisão 2 */
+  .cs-widget[id='9712e302-9a47-4eb9-99c8-0bc7d82707f3'] {
+    display: none; }
+
+  /* Diminui tamanho da fonte - divisão 2 */
+  .cs-widget[id='9ef792d5-0e54-471f-8324-294185dff61f'] .text-editor p span em {
+    font-size: 92%; }
+
+  /* Exclui espaço do fim - divisão 2 */
+  .cs-widget[id='ec1fef47-fef8-4723-b9cb-4e9a59e1a89c'] {
+    display: none; }
+
+  /* aumenta tamanho do carousel */
+  .w-100 {
+    width: 150% !important; }
+
+  /* Corrige posição das imagens - carousel */
+  .carousel-item {
+    left: -25%; }
+
+  /* Diminui fonte do "Solicitar Orçamento" */
+  .cs-text-widget[id='5359d33b-79d7-4e24-9e77-45b77ae3eb5d'] .text-editor h2 {
+    font-size: 38px; } }
+
+/*# sourceMappingURL=produtos-estilo-cubos.css.map */
