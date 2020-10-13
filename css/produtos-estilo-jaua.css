@@ -51,10 +51,8 @@ body {
 
   /* aumenta background - 1ª divisao */
   .cs-section[id='b5a370e7-b99c-490f-9246-1e6c7cdbd149'] .cs-section-inner {
-    /*
     min-height: 500px;
-    background-size: 160% auto;
-    */ }
+    background-size: 100% auto; }
 
   /* Diminui 1ª divisão */
   .cs-section[id='b5a370e7-b99c-490f-9246-1e6c7cdbd149'] {
