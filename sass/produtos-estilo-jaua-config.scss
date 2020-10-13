@@ -1,0 +1,45 @@
+// Comando para editar:
+// Deve fazer uma cópia deste arquivo para "produtos-estilo-jaua-config.scss"
+// sass --watch sass/produtos-estilo-jaua-config.scss:css/produtos-estilo-jaua.css
+
+// ~ CONFIGURAÇÃO ~ Área do Sass
+
+// Segunda divisão
+$segundaDivisao: "#cca65aee-39c3-45e7-9aca-5edf4f8ccf93";
+
+// Quarta divisão
+$quartaDivisao-solicitarOrcamento: ".cs-section[id='92561414-028f-414f-91e4-58c34db6f516'] .cs-section-inner";
+
+// Formulário (div das caixas)
+$formularioCaixas: "[id='2224354e-f14a-4af2-84ac-0cac08b06bda']";
+
+
+// ~ RESPONSIVO ~
+// Espaço (antes do título)
+$espacadorPrimeiraDivisao: ".cs-widget[id='f99a2c92-d0b8-49ec-973d-8cdc48bdeb25']";
+
+// ID da section do Background (primeira divisão) - (Fechar o valor do mxin para cancelar o zoom da imagem principal responsíva)
+$idSectionPrimeiraDivisao: ".cs-section[id='b5a370e7-b99c-490f-9246-1e6c7cdbd149']";
+
+@mixin zoomBackgroundResp{
+    /*
+    min-height: 500px;
+    background-size: 160% auto;
+    */
+}
+
+// Espaço de cima (segunda divisão)
+$espacoCimaSegDiv: ".cs-widget[id='94f48b9c-72ec-4659-9355-9d42f0450543']";
+
+// Texto (segunda divisão)
+$textoSegDiv: ".cs-widget[id='d86b1d68-6586-4f18-98a3-575b54735bf2'] .text-editor";
+
+// Espaço de baixo (segunda divisão)
+$espacadorSegundaDivisao: ".cs-widget[id='980671ed-a383-4de2-ab46-5f0f31935b0e']";
+
+// div do "Solicitar Orçamento" (h2) (quarta divisão)
+$SolicitarOrcamentoTitulo: ".cs-text-widget[id='1d9e5b7c-94a2-4ba7-bc8a-4b72aa8e9712']";
+
+
+/* Carregado do Sass */
+@import "produtos-estilo";
