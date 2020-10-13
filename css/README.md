@@ -1,4 +1,4 @@
-# Sobre 
+# Sobre
 
 - O arquivo `representacoes-produtos-estilo.css` se refere à página de representações.
 
