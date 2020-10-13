@@ -1,0 +1,45 @@
+// Comando para editar:
+// Deve fazer uma cópia deste arquivo para "produtos-estilo-hexagono-config.scss"
+// sass --watch sass/produtos-estilo-hexagono-config.scss:css/produtos-estilo-hexagono.css
+
+// ~ CONFIGURAÇÃO ~ Área do Sass
+
+// Segunda divisão
+$segundaDivisao: "#472ba7fe-6d57-4ec9-a692-56091c023fbc";
+
+// Quarta divisão
+$quartaDivisao-solicitarOrcamento: ".cs-section[id='f6a59c5b-b4fa-40dd-bffd-9a259a1a8d75'] .cs-section-inner";
+
+// Formulário (div das caixas)
+$formularioCaixas: "[id='8d9b41b9-11eb-4cb5-a6b2-09ba7f53671c']";
+
+
+// ~ RESPONSIVO ~
+// Espaço (antes do título)
+$espacadorPrimeiraDivisao: ".cs-widget[id='bf1c6be8-3ba6-40c0-bde6-7a8dc4a845be']";
+
+// ID da section do Background (primeira divisão) - (Fechar o valor do mxin para cancelar o zoom da imagem principal responsíva)
+$idSectionPrimeiraDivisao: ".cs-section[id='60c38f0f-d280-4839-a67c-d24176cc4eb2']";
+
+@mixin zoomBackgroundResp{
+
+    min-height: 500px;
+    background-size: 160% auto;
+
+}
+
+// Espaço de cima (segunda divisão)
+$espacoCimaSegDiv: ".cs-widget[id='bdcac78d-f53e-4482-9b0a-f38033bb2959']";
+
+// Texto (segunda divisão)
+$textoSegDiv: ".cs-widget[id='c20f6de8-c239-4c04-86c5-77af817763c8'] .text-editor";
+
+// Espaço de baixo (segunda divisão)
+$espacadorSegundaDivisao: ".cs-widget[id='0c7d3b57-ac16-4931-b317-cbabc8c5a4c1']";
+
+// div do "Solicitar Orçamento" (h2) (quarta divisão)
+$SolicitarOrcamentoTitulo: ".cs-text-widget[id='77fc959a-e583-4724-b617-2758fc8b30fb']";
+
+
+/* Carregado do Sass */
+@import "produtos-estilo";

@@ -7,7 +7,7 @@
 //~ CONFIGURAÇÃO ~ Adicionando IDs nas variáveis (ex: "#xxx" ou "[id='xxxx'] quando começa com número")
 
 //Primeira divisão
-var fotoDeFundo = "[id='']";
+var fotoDeFundo = "[id='']"; // Mesmo ID do $idSectionPrimeiraDivisao
 var titulo = "#";
 
 //Segunda divisão
@@ -17,12 +17,12 @@ var fotoTres = "[id='']";
 var texto = "[id='']";
 
 //Quarta divisão
-var tituloDoFormulario = "[id='']";
-var formularioBotao = ""; // Fundo da faixa "Solicitar Orçamento" - sem o "[id='']"
-var caixasDoFormulario = ""; // Sem o "[id='']"
+var tituloDoFormulario = "[id='']"; // Mesmo ID do $SolicitarOrcamentoTitulo
+var formularioBotao = ""; // Fundo da faixa "Solicitar Orçamento" - sem o "[id='']" - Mesmo ID do $quartaDivisao-solicitarOrcamento
+var caixasDoFormulario = ""; // Sem o "[id='']" - Mesmo ID do $formularioCaixas
 var textoDaMensagem = "Mensagem";
-    
- */ 
+
+ */
 
 // mostrar/esconder formulário
 var botaoFormularioUm = document.getElementById(formularioBotao);

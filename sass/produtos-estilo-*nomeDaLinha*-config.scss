@@ -1,0 +1,45 @@
+// Comando para editar:
+// Deve fazer uma cópia deste arquivo para "produtos-estilo-*nomeDaLinha*-config.scss"
+// sass --watch sass/produtos-estilo-*nomeDaLinha*-config.scss:css/produtos-estilo-*nomeDaLinha*.css
+
+// ~ CONFIGURAÇÃO ~ Área do Sass
+
+// Segunda divisão
+$segundaDivisao: "#";
+
+// Quarta divisão
+$quartaDivisao-solicitarOrcamento: ".cs-section[id=''] .cs-section-inner";
+
+// Formulário (div das caixas)
+$formularioCaixas: "[id='']";
+
+
+// ~ RESPONSIVO ~
+// Espaço (antes do título)
+$espacadorPrimeiraDivisao: ".cs-widget[id='']";
+
+// ID da section do Background (primeira divisão) - (Fechar o valor do mxin para cancelar o zoom da imagem principal responsíva)
+$idSectionPrimeiraDivisao: ".cs-section[id='']";
+
+@mixin zoomBackgroundResp{
+
+    min-height: 500px;
+    background-size: 160% auto;
+
+}
+
+// Espaço de cima (segunda divisão)
+$espacoCimaSegDiv: ".cs-widget[id='']";
+
+// Texto (segunda divisão)
+$textoSegDiv: ".cs-widget[id=''] .text-editor";
+
+// Espaço de baixo (segunda divisão)
+$espacadorSegundaDivisao: ".cs-widget[id='']";
+
+// div do "Solicitar Orçamento" (h2) (quarta divisão)
+$SolicitarOrcamentoTitulo: ".cs-text-widget[id='']";
+
+
+/* Carregado do Sass */
+@import "produtos-estilo";
