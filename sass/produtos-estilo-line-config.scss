@@ -1,0 +1,48 @@
+// Comando para editar:
+// Deve fazer uma cópia deste arquivo para "produtos-estilo-line-config.scss"
+// sass --watch sass/produtos-estilo-line-config.scss:css/produtos-estilo-line.css
+
+// ~ CONFIGURAÇÃO ~ Área do Sass
+// TODOS - USAR ID DA 1ª TAG
+
+// Segunda divisão
+$segundaDivisao: "[id='17c3ca2f-2d1d-4db8-b68e-f8e1a6faf2ae']";
+
+// Quarta divisão
+$quartaDivisao-solicitarOrcamento: ".cs-section[id='aee8a3e0-fa18-43f9-90fa-dbc27dc7bfda'] .cs-section-inner";
+
+// Formulário (div das caixas)
+$formularioCaixas: "[id='461002db-f1fb-44bb-ac79-f94a2e5aa4ae']";
+
+
+// ~ RESPONSIVO ~
+// TODOS (1 exceção) - USAR ID DA ÚLTIMA TAG
+
+// Espaço (antes do título)
+$espacadorPrimeiraDivisao: ".cs-widget[id='f8dd1369-b36a-4265-aae4-d630478f891c']";
+
+// ID da section do Background (primeira divisão) - (Dixar o background-size em 100% caso o conteúdo da img seja grande.)
+$idSectionPrimeiraDivisao: ".cs-section[id='386cbac0-cfe8-45bc-84da-4d8fdfdf6f95']"; // USAR ID DA 1ª TAG
+
+@mixin zoomBackgroundResp{
+
+    min-height: 500px;
+    background-size: 160% auto;
+
+}
+
+// Espaço de cima (segunda divisão)
+$espacoCimaSegDiv: ".cs-widget[id='f8dd1369-b36a-4265-aae4-d630478f891c']";
+
+// Texto (segunda divisão)
+$textoSegDiv: ".cs-widget[id='616c39e9-a140-424c-b62f-eb653bc3fdd5'] .text-editor";
+
+// Espaço de baixo (segunda divisão)
+$espacadorSegundaDivisao: ".cs-widget[id='a160c92d-4ec0-4e88-86f6-9ca1ba3d9cfc']";
+
+// div do "Solicitar Orçamento" (h2) (quarta divisão)
+$SolicitarOrcamentoTitulo: ".cs-text-widget[id='646619dd-2878-43d0-999c-7883bd4cdf12']";
+
+
+/* Carregado do Sass */
+@import "produtos-estilo";

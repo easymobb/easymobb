@@ -1,28 +1,29 @@
 /*
 <!-- Botao fixado -->
 <div id="botaoFixado" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-    <a href="#(ID do formularioBotao)"><button class="solOrc">Solicitar orçamento</button></a>
+  <a href="#(ID do formularioBotao)"><button class="solOrc">Solicitar orçamento</button></a>
 </div>
 
-//~ CONFIGURAÇÃO ~ Adicionando IDs nas variáveis (ex: "#xxx" ou "[id='xxxx'] quando começa com número")
+//~ CONFIGURAÇÃO ~ Adicionando IDs nas variáveis (ex: "#xxx" e "[id='xxxx'] quando começar com número")
 
 //Primeira divisão
-var fotoDeFundo = "[id='']"; // Mesmo ID do $idSectionPrimeiraDivisao
-var titulo = "#";
+var fotoDeFundo = "[id='']"; // Mesmo ID do $idSectionPrimeiraDivisao // USAR ID DA 1ª TAG
+var titulo = "[id='']"; // USAR ID DA 2ª TAG
 
 //Segunda divisão
-var fotoUm = "[id='']";
+//TODOS (1 exceção) - USAR ID DA 2ª TAG
+var fotoUm = "[id='']"; // USAR ID DA 1ª TAG
 var fotoDois = "[id='']";
 var fotoTres = "[id='']";
 var texto = "[id='']";
 
 //Quarta divisão
-var tituloDoFormulario = "[id='']"; // Mesmo ID do $SolicitarOrcamentoTitulo
+//TODOS (1 exceção) - USAR ID DA 1ª TAG
+var tituloDoFormulario = "[id='']"; // Mesmo ID do $SolicitarOrcamentoTitulo // USAR ID DA ÚLTIMA TAG
 var formularioBotao = ""; // Fundo da faixa "Solicitar Orçamento" - sem o "[id='']" - Mesmo ID do $quartaDivisao-solicitarOrcamento
 var caixasDoFormulario = ""; // Sem o "[id='']" - Mesmo ID do $formularioCaixas
-var textoDaMensagem = "Mensagem";
-
- */
+var textoDaMensagem = "Olá! Estou interessado(a) na Linha *nomeDaLinha* do Coisas do brasil. Por favor envie-me um email ou mensagem por telefone para podermos conversar sobre um orçamento.";
+*/
 
 // mostrar/esconder formulário
 var botaoFormularioUm = document.getElementById(formularioBotao);

@@ -1,11 +1,13 @@
 // Comando para editar:
 // Deve fazer uma cópia deste arquivo para "produtos-estilo-*nomeDaLinha*-config.scss"
 // sass --watch sass/produtos-estilo-*nomeDaLinha*-config.scss:css/produtos-estilo-*nomeDaLinha*.css
+// Acessar js/produtos-script.js para continuar as configurações
 
 // ~ CONFIGURAÇÃO ~ Área do Sass
+// TODOS - USAR ID DA 1ª TAG
 
 // Segunda divisão
-$segundaDivisao: "#";
+$segundaDivisao: "[id='']";
 
 // Quarta divisão
 $quartaDivisao-solicitarOrcamento: ".cs-section[id=''] .cs-section-inner";
@@ -15,11 +17,13 @@ $formularioCaixas: "[id='']";
 
 
 // ~ RESPONSIVO ~
+// TODOS (1 exceção) - USAR ID DA ÚLTIMA TAG
+
 // Espaço (antes do título)
 $espacadorPrimeiraDivisao: ".cs-widget[id='']";
 
-// ID da section do Background (primeira divisão) - (Fechar o valor do mxin para cancelar o zoom da imagem principal responsíva)
-$idSectionPrimeiraDivisao: ".cs-section[id='']";
+// ID da section do Background (primeira divisão) - (Dixar o background-size em 100% caso o conteúdo da img seja grande.)
+$idSectionPrimeiraDivisao: ".cs-section[id='']"; // USAR ID DA 1ª TAG
 
 @mixin zoomBackgroundResp{
 
