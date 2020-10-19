@@ -8,7 +8,7 @@
 
 //Primeira divisão
 var fotoDeFundo = "[id='']"; // Mesmo ID do $idSectionPrimeiraDivisao // USAR ID DA 1ª TAG
-var titulo = "[id='']"; // USAR ID DA 2ª TAG
+var titulo = "[id'']"; // USAR ID DA 2ª TAG
 
 //Segunda divisão
 //TODOS (1 exceção) - USAR ID DA 2ª TAG
