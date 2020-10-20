@@ -1,0 +1,49 @@
+// Comando para editar:
+// Deve fazer uma cópia deste arquivo para "produtos-estilo-pacman-config.scss"
+// sass --watch sass/produtos-estilo-pacman-config.scss:css/produtos-estilo-pacman.css
+// Acessar js/produtos-script.js para continuar as configurações
+
+// ~ CONFIGURAÇÃO ~ Área do Sass
+// TODOS - USAR ID DA 1ª TAG
+
+// Segunda divisão
+$segundaDivisao: "[id='f30349d8-c5fa-4b39-b248-846b02f4b750']";
+
+// Quarta divisão
+$quartaDivisao-solicitarOrcamento: ".cs-section[id='18f8328c-e328-4251-941f-db1a51c81c1d'] .cs-section-inner";
+
+// Formulário (div das caixas)
+$formularioCaixas: "[id='841d923a-8805-4a71-bafd-adcc5a5ad813']";
+
+
+// ~ RESPONSIVO ~
+// TODOS (1 exceção) - USAR ID DA ÚLTIMA TAG
+
+// Espaço (antes do título)
+$espacadorPrimeiraDivisao: ".cs-widget[id='1851f24a-2426-44f1-a634-8f6d050bc332']";
+
+// ID da section do Background (primeira divisão) - (Dixar o background-size em 100% caso o conteúdo da img seja grande.)
+$idSectionPrimeiraDivisao: ".cs-section[id='026da767-4cb1-48f5-8fdb-2bf842b25e9c']"; // USAR ID DA 1ª TAG
+
+@mixin zoomBackgroundResp{
+
+    min-height: 500px;
+    background-size: 160% auto;
+
+}
+
+// Espaço de cima (segunda divisão)
+$espacoCimaSegDiv: ".cs-widget[id='cd6544c2-14d7-4e41-9c7b-bc8f3f27f8f5']";
+
+// Texto (segunda divisão)
+$textoSegDiv: ".cs-widget[id='d2ebbec7-58ba-4e3a-bd03-7d6279e35940'] .text-editor";
+
+// Espaço de baixo (segunda divisão)
+$espacadorSegundaDivisao: ".cs-widget[id='c936c817-9efd-4d85-b913-962f3b0dbad8']";
+
+// div do "Solicitar Orçamento" (h2) (quarta divisão)
+$SolicitarOrcamentoTitulo: ".cs-text-widget[id='3f8caaee-1b18-4cd2-8aad-860dd84dc7b5']";
+
+
+/* Carregado do Sass */
+@import "produtos-estilo";
