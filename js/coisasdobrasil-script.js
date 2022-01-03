@@ -1,4 +1,4 @@
-//Animação AOS
+// Animação AOS
 var coisasDoBrasil = document.querySelector("[id='a2fae744-081d-4669-822f-853b753c40b7']");
 
 var agaveTexto = document.querySelector("[id='e78a7e30-d48f-4d81-84c0-715a2173b311']");
